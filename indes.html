@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Fiaz Ahmad - Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Segoe UI", sans-serif;
+      background: #f0f0ff;
+    }
+
+    /* Navigation */
+    nav {
+      background-color: #5d65a6;
+      padding: 12px 0;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 25px;
+      text-decoration: none;
+      font-weight: bold;
+      padding: 6px 16px;
+      border-radius: 5px;
+    }
+
+    nav a:hover {
+      background-color: #4a528c;
+    }
+
+    /* Header Section */
+    .header {
+      display: flex;
+      background: #6f79c9;
+      padding: 30px;
+      color: white;
+    }
+
+    .header img {
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      margin-right: 30px;
+      border: 4px solid #fff;
+    }
+
+    .header-text {
+      margin-top: 20px;
+    }
+
+    .header-text h1 {
+      font-size: 45px;
+      margin: 0;
+    }
+
+    .header-text h3 {
+      margin-top: 10px;
+      font-style: italic;
+      font-size: 22px;
+    }
+
+    /* Main Layout */
+    .container {
+      display: grid;
+      grid-template-columns: 28% 72%;
+      padding: 20px;
+    }
+
+    .left {
+      background: white;
+      padding: 25px;
+    }
+
+    .right {
+      background: white;
+      padding: 25px;
+      margin-left: 10px;
+    }
+
+    .section-title {
+      font-size: 22px;
+      font-weight: bold;
+      color: #5d65a6;
+      border-bottom: 2px solid #5d65a6;
+      display: inline-block;
+      margin-bottom: 10px;
+    }
+
+    /* Skills icons */
+    .skill-icon {
+      font-size: 14px;
+      margin: 6px 0;
+      padding-left: 10px;
+    }
+
+    /* Education & Experience */
+    .item {
+      margin-bottom: 20px;
+    }
+
+    .item h4 {
+      margin: 0;
+      font-size: 18px;
+      color: #333;
+    }
+
+    .item p {
+      margin: 5px 0;
+      color: #555;
+      line-height: 1.4;
+    }
+
+    .year {
+      font-weight: bold;
+      color: #5d65a6;
+      margin-bottom: 5px;
+    }
+
+    /* Contact */
+    .contact {
+      margin-top: 20px;
+      font-size: 16px;
+      font-weight: bold;
+    }
+
+    /* Hobbies icons */
+    .hobbies i {
+      font-size: 26px;
+      margin-right: 12px;
+      color: #5d65a6;
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <nav>
+    <a href="#">Personal Information</a>
+    <a href="#">Table</a>
+    <a href="#">Form</a>
+  </nav>
+
+  <!-- HEADER -->
+  <div class="header">
+    <img src="fiaza.jpg" alt="">
+
+    <div class="header-text">
+      <h1>FIAZ AHMAD</h1>
+      <h3>Full Stack Developer</h3>
+    </div>
+  </div>
+
+  <!-- MAIN CONTENT -->
+  <div class="container">
+
+    <!-- LEFT SIDE -->
+    <div class="left">
+
+      <h2 class="section-title">About Me</h2>
+      <p>
+        As a web developer with experience in ReactJS, CSS, Next.js, and PostgreSQL, 
+        I specialize in building responsive and high-performance web applications.
+      </p>
+
+      <div class="contact">
+        fiazahmadgohar777@gmail.com<br>
+        +92 355 4267835
+      </div>
+
+      <h2 class="section-title">Skills</h2>
+      <div class="skill-icon">• ReactJS & Next.js</div>
+      <div class="skill-icon">• JavaScript & TypeScript</div>
+      <div class="skill-icon">• PostgreSQL & Firebase</div>
+      <div class="skill-icon">• CSS & Tailwind</div>
+      <div class="skill-icon">• MaterialUI & Bootstrap</div>
+      <div class="skill-icon">• Redux Toolkit</div>
+      <div class="skill-icon">• Responsive Web Design</div>
+      <div class="skill-icon">• Performance Optimization</div>
+
+      <h2 class="section-title">Hobbies</h2>
+      <div class="hobbies">
+        🎮 🎧 🏸 📚 ✈️
+      </div>
+    </div>
+
+    <!-- RIGHT SIDE -->
+    <div class="right">
+
+      <h2 class="section-title">Education</h2>
+
+      <div class="item">
+        <div class="year">2023–2027</div>
+        <h4>Karakoram International University</h4>
+        <p>
+          BS Computer Science — Specialized in BSIT, data structures,
+          algorithms, and database systems.
+        </p>
+      </div>
+
+      <div class="item">
+        <div class="year">2019–2021</div>
+        <h4>KING College GILGIT</h4>
+        <p>Pre-Engineering — Strong foundation in analytical & problem-solving skills.</p>
+      </div>
+
+      <div class="item">
+        <div class="year">2017–2019</div>
+        <h4>DJ Model High School Goharabad</h4>
+        <p>Secondary School Certificate — Excellent grades in core science subjects.</p>
+      </div>
+
+      <h2 class="section-title">Work Experience</h2>
+
+      <div class="item">
+        <div class="year">2019–2022</div>
+        <h4>SuperRealtor</h4>
+        <p>Frontend Developer — Created UX-friendly ReactJS applications.</p>
+      </div>
+
+      <div class="item">
+        <div class="year">2017–2019</div>
+        <h4>Shift.ms</h4>
+        <p>Worked on website accessibility, UI testing and modern layouts.</p>
+      </div>
+
+      <div class="item">
+        <div class="year">2015–2017</div>
+        <h4>CollectiveNFT</h4>
+        <p>Junior Developer — Worked with NextJS and PostgreSQL.</p>
+      </div>
+
+    </div>
+  </div>
+
+</body>
+</html>

@@ -1,87 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>High-Level Beautified Table</title>
-    <link rel="stylesheet" type="text/css" href="styles.css" />
-    <style>
-      * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-      }
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
 
-      table {
-        width: 60%;
-        margin: 20px auto;
-        border-collapse: collapse;
-        box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-      }
-      th,
-      td {
-        padding: 12px 15px;
-        text-align: left;
-        border-bottom: 1px solid #ddd;
-        background-color: white;
-      }
-      th {
-        background-color: #8894b8;
-        color: white;
-      }
-      tr:hover {
-        background-color: #f5f5f5;
-      }
-    </style>
-  </head>
-  <body style="background-color: #6b7fba">
-    <nav class="navbar">
-      <ul class="nav-list">
-        <li class="nav-item">
-          <a href="/index.html">Personal Information</a>
-        </li>
-        <li class="nav-item">
-          <a style="background-color: #8096d0" href="/table.html">Table</a>
-        </li>
-        <li class="nav-item"><a href="/form.html">Form</a></li>
-      </ul>
-    </nav>
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="table.css">
+</head>
+<body>
 
-    <table>
-      <thead>
-        <tr>
-          <th>Name</th>
-          <th>Program</th>
-          <th>Credits</th>
-          <th>Instructor</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Ali Khan</td>
-          <td>Data Structures</td>
-          <td>3</td>
-          <td>Dr. Ayesha Siddiqui</td>
-        </tr>
-        <tr>
-          <td>Fatima Ali</td>
-          <td>Algorithms</td>
-          <td>4</td>
-          <td>Dr. Ahmed Zafar</td>
-        </tr>
-        <tr>
-          <td>Zainab Malik</td>
-          <td>Database Systems</td>
-          <td>3</td>
-          <td>Dr. Sana Tariq</td>
-        </tr>
-        <tr>
-          <td>Hamza Shah</td>
-          <td>Operating Systems</td>
-          <td>4</td>
-          <td>Dr. Bilal Ahmed</td>
-        </tr>
-      </tbody>
-    </table>
-  </body>
+    <!-- NAVIGATION BAR -->
+    <div class="navbar">
+        <a href="index.html">Personal Information</a>
+        <a href="table.html" class="active">Table</a>
+        <a href="form.html">Form</a>
+    </div>
+
+    <!-- TABLE CONTAINER -->
+    <div class="main-box">
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Program</th>
+                    <th>Credits</th>
+                    <th>Instructor</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>FIAZ</td>
+                    <td>Web Engineering </td>
+                    <td>4</td>
+                    <td>Dr.Sajid</td>
+                </tr>
+
+                <tr>
+                    <td>Ibrahim</td>
+                    <td>AI</td>
+                    <td>3</td>
+                    <td>Dr. Ahmed Zafar</td>
+                </tr>
+
+                <tr>
+                    <td>Sabir</td>
+                    <td>OS</td>
+                    <td>4</td>
+                    <td>Dr. Tariq</td>
+                </tr>
+
+                <tr>
+                    <td>Huzfa</td>
+                    <td>Operating Systems</td>
+                    <td>4</td>
+                    <td>Dr. Bilal Ahmed</td>
+                </tr>
+            </tbody>
+
+        </table>
+    </div>
+
+</body>
 </html>
